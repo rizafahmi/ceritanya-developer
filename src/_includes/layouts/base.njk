@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include "partials/head.njk" %}
+    {% if site.ENV == 'production' %}
+      <!-- capture the CSS content as a Liquid variable -->
+      {% set css %}{% include "stylesheets/app.compiled.css" %}{% endset %}
+      <style> 
+        {{ css | safe }}
+      </style>
+    {% else %}
+    <link rel="stylesheet" href="/static/app.compiled.css">
+    {% endif %}
+  </head>
+  <body>
+    {{ content | safe }}
+  </body>
+  <script src="/static/app.bundled.js"></script>
+</html>
