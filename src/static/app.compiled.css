@@ -11401,6 +11401,10 @@ video {
   z-index: auto;
 }
 
+.hard-shadow {
+  box-shadow: 0.6rem 0.6rem 0 #222;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -54504,4 +54508,3 @@ video {
     z-index: auto;
   }
 }
-

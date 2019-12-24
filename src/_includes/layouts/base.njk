@@ -13,7 +13,9 @@
     {% endif %}
   </head>
   <body>
-    {{ content | safe }}
+    <div class="bg-white container mx-auto flex flex-column items-center my-6">
+      {{ content | safe }}
+    </div>
   </body>
   <script src="/static/app.bundled.js"></script>
 </html>

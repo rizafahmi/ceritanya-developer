@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.hard-shadow {
+  box-shadow: 0.6rem 0.6rem 0 #222;
+}
