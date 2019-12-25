@@ -1,13 +1,12 @@
 ---
 title: "devs[1][8] = Bramandia Ramadhana"
 date: 2019-12-04
-season: 2
 duration: 13
 name: "Bramandia Ramadhana"
 layout: "layouts/base.njk"
 excerpt: "Ikut competitive programming, kontribusi ke open source, dan buat tutorial artikel. Show people what you've got!"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-11-3/36458536-44100-2-49507e7b048f4.m4a
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 ---
 
 Irfan Maulana adalah Principle Engineer di salah satu startup unicorn Indonesia. Ia juga pernah bekerja menjadi Software Engineer di Blibli.com. Tapi sejak kecil, Irfan tidak pernah menyentuh dan bermain dengan benda bernama komputer. Bagi Irfan yang berasal dari daerah dan pernah menjadi buruh, komputer adalah barang mewah. Saat pertama masuk kuliah dan mencoba komputer untuk pertama kalinya pun, Irfan sama sekali tidak tahu bagaimana cara menyalakan komputer. Bahkan, di saat lulus, Irfan tidak paham cara mengoding sebuah program.

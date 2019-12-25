@@ -1,7 +1,6 @@
 ---
 title: "devs[1][5] = Giovanni Sakti"
 date: 2019-08-27
-season: 2
 duration: 34
 draft: false
 path: "/giovanni-sakti/"
@@ -9,7 +8,7 @@ excerpt: "Kepuasan tersendiri ketika menyelesaikan masalah dengan ngoding."
 name: "Giovanni Sakti"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-7-29/21986822-44100-2-4f394afd3c14f.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs15--Giovanni-Sakti-e54vuo/a-altg26
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 ---
 
 [Giovanni Sakti](https://twitter.com/giosakti) merupakan seorang developer, pembicara dan juga penggerak komunitas yang mengenal komputer sejak dari tingkat sekolah dasar. Ketertarikan dibidang komputer didukung pula dengan hadirnya modem yang akhirnya membuat ia cukup sering _nongkrong_ di beberapa kanal komputer di [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat).

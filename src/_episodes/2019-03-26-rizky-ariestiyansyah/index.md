@@ -9,7 +9,7 @@ name:      "Rizky Ariestiyansyah"
 thumbnail: "./rizky.jpg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-2-25/11859149-44100-2-84d85fba31671.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs10--Rizky-Ariestiyansyah-e3hukp
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 duration: 15
 
 ---

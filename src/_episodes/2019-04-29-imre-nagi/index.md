@@ -8,7 +8,7 @@ name:      "Imre Nagi"
 thumbnail: "./imre.jpg"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-3-30/13856729-44100-2-6c429e02aba7d.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs11--Imre-Nagi-e3sprl
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 duration: 39
 
 ---

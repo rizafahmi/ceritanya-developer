@@ -7,7 +7,7 @@ name: "Andi Dirgantara"
 excerpt: "Low effort, high impact"
 layout: "layouts/base.njk"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-11-20/39848773-44100-2-59cc186fc883b.m4a
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 ---
 
 Test

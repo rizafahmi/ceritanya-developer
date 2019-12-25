@@ -1,7 +1,6 @@
 ---
 title:      "devs[1][2] = Ainur Rony"
 date:       2019-05-23
-season: 2
 draft:      false
 path:        "/ainur-rony/"
 excerpt: "Yang namanya film Cinderella itu ada 6. Ceritanya sama, tapi masih banyak orang yang nonton. Artinya masing-masing dari film itu punya keunikan. Nah tugas kita tinggal mencari keunikan yang belum tentu dipunyai kompetitor."
@@ -10,7 +9,7 @@ duration: 37
 thumbnail: ./rony.jpg
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-4-24/15803414-44100-2-88dfe0c76807.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs12--Ainur-Rony-e44ls4
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 
 ---
 

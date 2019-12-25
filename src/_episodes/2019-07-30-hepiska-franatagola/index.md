@@ -1,15 +1,15 @@
 ---
 title: "devs[1][4] = Hepiska Franatagola"
-season: 2
 date: 2019-07-30
 draft: false
 path: "/hepiska-franatagola/"
 excerpt: "Menurutku menambah orang masuk ke sebuah tim atau perusahaan sekaligus menambah resiko kegagalan dan memperpanjang proses. Karena itu aku mencoba prinsip tim dengan gaya lean."
 name: "Hepiska Franatagola"
 thumbnail: "./hepiska.jpg"
+duration: 28
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-6-31/19909812-44100-2-31955e89796af.m4a
 embed: https://anchor.fm/ceritanya-developer/episodes/devs14--Hepiska-Franatagola-e4phle
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 ---
 
 [ Hepiska Franatagola ](https://www.linkedin.com/in/hepiska-franatagola-391845113/) atau yang biasa dipanggil Ego saat ini bekerja di

@@ -4,14 +4,13 @@ name: "Yohan Totting"
 duration: 48
 date: 2019-09-24
 draft: false
-season: 2
 path: "/yohan-totting/"
 excerpt: "Yang membedakan gue dengan orang lain adalah gue cenderung melawan arus, melakukan yang tidak dilakukan orang lain. Dan gue punya alasan yang kuat kenapa memilih jalur yang berbeda."
 guest: Yohan Totting
 thumbnail: ./yohan.jpg
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-9-7/26999555-44100-2-665eae9fbbeaa.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs16--Yohan-Totting-e6csg6/a-aqmfa3
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 
 ---
 

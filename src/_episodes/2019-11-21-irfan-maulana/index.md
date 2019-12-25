@@ -1,13 +1,12 @@
 ---
 title: "devs[1][7] = Irfan Maulana"
 date: 2019-11-21
-season: 2
 duration: 42
 name: "Irfan Maulana"
 layout: "layouts/base.njk"
 excerpt: "Belajar programming sendiri itu susah. Tapi, belajar programming sendiri lalu ada yang mendorong, yang membantu, yang memberikan proyek, yang bisa diajak diskusi soal program akan lebih mudah."
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-10-21/35060901-44100-2-170056964a9c6.m4a
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 ---
 
 Irfan Maulana adalah Principle Engineer di salah satu startup unicorn Indonesia. Ia juga pernah bekerja menjadi Software Engineer di Blibli.com. Tapi sejak kecil, Irfan tidak pernah menyentuh dan bermain dengan benda bernama komputer. Bagi Irfan yang berasal dari daerah dan pernah menjadi buruh, komputer adalah barang mewah. Saat pertama masuk kuliah dan mencoba komputer untuk pertama kalinya pun, Irfan sama sekali tidak tahu bagaimana cara menyalakan komputer. Bahkan, di saat lulus, Irfan tidak paham cara mengoding sebuah program.

@@ -1,6 +1,5 @@
 ---
 title: "devs[1][3] = [Bagus, Hari, Adith]"
-season: 2
 duration: 37
 date: 2019-06-25
 draft: false
@@ -10,7 +9,7 @@ name: "[Bagus, Hari dan Adith]"
 thumbnail: ./IMG_9118.JPG
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-6-2/18085365-44100-2-b7e9eab9807f4.m4a
 embed: https://anchor.fm/ceritanya-developer/embed/episodes/devs13--Bagus--Hari--Adith-e4gleg/a-ai6e1l
-tags: ["episodes"]
+tags: ["episodes", "season2"]
 
 ---
 
