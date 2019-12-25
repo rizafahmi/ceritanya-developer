@@ -57,48 +57,64 @@ layout: layouts/base.njk
     <div class="seasons p-6">
       <ul class="flex">
         <li class="pr-6"><a class="font-medium border-b border-gray-500 pb-6" href="#">Season 2</a></li>
-        <li><a href="#" class="text-gray-500">Season 1</a></li>
+        <li class="pr-6"><a href="#" class="text-gray-500">Season 1</a></li>
+        <li><a href="#" class="text-gray-500">Bonus</a></li>
       </ul>
     </div>
     <div class="episode-list border-t">
-      <div class="flex px-6 py-4 border-b">
-        <div class="episode-icon self-center justify-center">
-          <a href="#"><img class="w-1/2" src="./static/images/play-button.png" /></a>
-        </div>
-        <div class="episode-info p-2">
-          <div class="metadata text-sm text-gray-400 py-2">
-            24 Oktober 2019 &centerdot; 33 Menit
+
+      {% for episode in collections.episodes | reverse %}
+        <div class="flex px-6 py-4 border-b">
+          <div class="episode-icon self-center justify-center">
+            <a href="#" onclick="javascript:play('{{ episode.data.audio }}', 'play-{{ loop.index0 }}');"><img class="play-image w-1/2" src="./static/images/play.png" id="play-{{ loop.index0 }}" /></a>
           </div>
-          <a href="#">
-            <div class="title font-semibold uppercase text-md pb-4">
-              devs[1][9] = Andi Nugroho Dirgantara
+          <div class="episode-info p-2">
+            <div class="metadata text-sm text-gray-400 py-2">
+              {{ episode.data.date | htmlDateString }} &centerdot; {{ episode.data.duration }} Menit
             </div>
-            <div class="quote text-sm">
-              "Yang membedakan gue dengan orang lain adalah gue cenderung melawan arus, melakukan yang tidak dilakukan orang lain. Dan gue punya alasan yang kuat kenapa memilih jalur yang berbeda." -- Yohan Totting
-            </div>
-          </a>
+            <a href="{{ episode.url }}">
+              <div class="title font-semibold uppercase text-md pb-4">
+                {{ episode.data.title }}
+              </div>
+              <div class="quote text-sm">
+                "{{ episode.data.excerpt }}"
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
+      {% endfor %}
 
 
-      <div class="flex px-6 py-4 border-b">
-        <div class="episode-icon self-center justify-center">
-          <a href="#"><img class="w-1/2" src="./static/images/play-button.png" /></a>
-        </div>
-        <div class="episode-info p-2">
-          <div class="metadata text-sm text-gray-400 py-2">
-            24 Oktober 2019 &centerdot; 33 Menit
-          </div>
-          <a href="#">
-            <div class="title font-semibold uppercase text-md pb-4">
-              devs[1][9] = Andi Nugroho Dirgantara
-            </div>
-            <div class="quote text-sm">
-              "Yang membedakan gue dengan orang lain adalah gue cenderung melawan arus, melakukan yang tidak dilakukan orang lain. Dan gue punya alasan yang kuat kenapa memilih jalur yang berbeda." -- Yohan Totting
-            </div>
-          </a>
-        </div>
-      </div>
     </div>
   </div>
 </div>
+ <script>
+   let audio = new Audio();
+   function play(audio_url, id) {
+     const img = document.querySelector(`#${id}`);
+     if (audio && audio.src === audio_url) {
+       if (img.src.indexOf("play") > 1) {
+         img.src = "./static/images/pause.png";
+         audio.play();
+       } else {
+         img.src = "./static/images/play.png";
+         audio.pause();
+       }
+     } else {
+       resetAllPlayButtons();
+       audio.pause();
+       audio.src = audio_url;
+       audio.load();
+       img.src = "./static/images/pause.png";
+       img.classList.add('pause-image');
+       img.classList.remove('play-image');
+       audio.play();
+     }
+   }
+   function resetAllPlayButtons() {
+     const pauseButtons = document.querySelectorAll('.pause-image');
+     pauseButtons.forEach(function(button) {
+       button.src = './static/images/play.png';
+     })
+   }
+ </script>
