@@ -9,14 +9,15 @@
 var pkgJSON = require('../../package.json');
 
 module.exports = {
-  title: "Web Starter | Start building your website quicker",
-  author: "Chris Collins",
-  url: "https://webstarter.chriscollins.me", // Don't end with a slash /
-  description: "An opinionated but minimal boilerplate for new projects built with Eleventy",
+  title: 'Ceritanya Developer Podcast',
+  author: 'Riza Fahmi',
+  url: 'https://ceritanyadeveloper.com', // Don't end with a slash /
+  description:
+    'Developer inspiratif bercerita tentang bagaimana mereka mulai menjadi developer. Mulai dari komputer pertama, pengalaman ngoding pertama, hingga hal random lainnya.',
   meta_data: {
-    theme_color: '#000', // used in Chrome, Firefox OS and Opera
-    twitter: "@scottishstoater",
-    default_social_image: "/static/images/featured_image.jpg"
+    theme_color: '#E7FFFA', // used in Chrome, Firefox OS and Opera
+    twitter: '@rizafahmi22',
+    default_social_image: '/static/images/logo.png'
   },
   ENV: process.env.ELEVENTY_ENV,
   version: pkgJSON.version

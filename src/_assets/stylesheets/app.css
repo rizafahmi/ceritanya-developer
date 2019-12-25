@@ -5,3 +5,18 @@
 .hard-shadow {
   box-shadow: 0.6rem 0.6rem 0 #222;
 }
+
+.producer > a:hover {
+  @apply border-b border-black;
+}
+
+.available > a {
+  @apply font-medium border-b border-black;
+}
+
+.episode-icon {
+  flex: 1;
+}
+.episode-info {
+  flex: 4;
+}
