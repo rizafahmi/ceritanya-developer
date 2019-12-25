@@ -3,7 +3,7 @@ title: "devs[1][8] = Bramandia Ramadhana"
 date: 2019-12-04
 duration: 13
 name: "Bramandia Ramadhana"
-layout: "layouts/base.njk"
+layout: "layouts/detail.njk"
 excerpt: "Ikut competitive programming, kontribusi ke open source, dan buat tutorial artikel. Show people what you've got!"
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-11-3/36458536-44100-2-49507e7b048f4.m4a
 tags: ["episodes", "season2"]

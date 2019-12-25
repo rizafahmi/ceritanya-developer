@@ -1,5 +1,6 @@
 ---
 title:      "devs[1][0] = Rizky Ariestiyansyah"
+layout: "layouts/detail.njk"
 date:       2019-03-26
 subtitle: Kalau mau proposal talk lebih punya kesempatan diterima, submitlah proposal secepat mungkin
 draft:      false

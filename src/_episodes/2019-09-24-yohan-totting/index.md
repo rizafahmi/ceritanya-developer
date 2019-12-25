@@ -1,6 +1,7 @@
 ---
 title: "devs[1][6] = Yohan Totting"
 name: "Yohan Totting"
+layout: "layouts/detail.njk"
 duration: 48
 date: 2019-09-24
 draft: false

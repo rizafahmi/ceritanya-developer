@@ -1,5 +1,6 @@
 ---
 title: "devs[1][5] = Giovanni Sakti"
+layout: "layouts/detail.njk"
 date: 2019-08-27
 duration: 34
 draft: false

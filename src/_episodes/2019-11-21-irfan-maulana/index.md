@@ -3,7 +3,7 @@ title: "devs[1][7] = Irfan Maulana"
 date: 2019-11-21
 duration: 42
 name: "Irfan Maulana"
-layout: "layouts/base.njk"
+layout: "layouts/detail.njk"
 excerpt: "Belajar programming sendiri itu susah. Tapi, belajar programming sendiri lalu ada yang mendorong, yang membantu, yang memberikan proyek, yang bisa diajak diskusi soal program akan lebih mudah."
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-10-21/35060901-44100-2-170056964a9c6.m4a
 tags: ["episodes", "season2"]

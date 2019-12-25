@@ -1,5 +1,6 @@
 ---
 title: "devs[1][3] = [Bagus, Hari, Adith]"
+layout: "layouts/detail.njk"
 duration: 37
 date: 2019-06-25
 draft: false
