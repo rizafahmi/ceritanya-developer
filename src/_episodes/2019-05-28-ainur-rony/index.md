@@ -1,5 +1,6 @@
 ---
 title:      "devs[1][2] = Ainur Rony"
+layout: "layouts/detail.njk"
 date:       2019-05-23
 draft:      false
 path:        "/ainur-rony/"

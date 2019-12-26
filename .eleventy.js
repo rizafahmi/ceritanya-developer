@@ -35,6 +35,8 @@ module.exports = function(eleventyConfig) {
     );
   });
 
+  eleventyConfig.addPassthroughCopy('images');
+
   eleventyConfig.addFilter('w3cDate', function(date) {
     return date.toISOString();
   });

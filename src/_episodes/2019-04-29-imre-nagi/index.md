@@ -1,5 +1,6 @@
 ---
 title:      "devs[1][1] = Imre Nagi"
+layout: "layouts/detail.njk"
 date:       2019-04-29
 draft:      false
 path:        "/imre-nagi"

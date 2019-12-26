@@ -1,5 +1,6 @@
 ---
 title: "devs[1][4] = Hepiska Franatagola"
+layout: "layouts/detail.njk"
 date: 2019-07-30
 draft: false
 path: "/hepiska-franatagola/"
