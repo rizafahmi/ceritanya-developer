@@ -18,9 +18,7 @@ tags: ["episodes", "season2"]
 lulusan _coding bootcamp_ [HACKTIV8](https://hacktiv8.com/). Bersama beberapa
 alumni HACKTIV8 juga yang saat ini bekerja di Pomona, salah satunya [Shabrina](https://ceritanyadeveloper.com/shabrina-inmas).
 
-<blockquote class="pl-4 border-l-4 border-teal ml-6 my-6"><p
-class="text-xl">Aku berfikir, aku baru banget lulus dari HACKTIV8. Untuk bergabung dengan perusahaan yang teknologinya berbeda dan tidak ada mentor takutnya malah hilang ilmunya.
-<p class="uppercase my-6">Hepiska Franatagola</p></blockquote>
+> Aku berfikir, aku baru banget lulus dari HACKTIV8. Untuk bergabung dengan perusahaan yang teknologinya berbeda dan tidak ada mentor takutnya malah hilang ilmunya.
 
 Pengalaman pertama berkomputer-ria dirasakan Ego ketika duduk di bangku SMA.
 Pertama kali Ego tertarik menggunakan aplikasi _spreadsheet_ hingga mendorongnya
@@ -42,8 +40,8 @@ membuat aplikasi desktop. Dan saat bekerja sudah belajar tentang database. Namun
 ia merasa butuh belajar penghubung antara database dengan klien, hingga akhirnya
 memutuskan mengikuti _coding bootcamp_ di 2017.
 
-<blockquote class="pl-4 border-l-4 border-teal ml-6 my-6"><p
-class="text-xl">Menurutku <a href="https://www.sorabel.com" target="_blank">Sale Stock</a> dan Garindra berhasil menerapkan tim yang <em>lean</em> dan bisa bertahan sampai sejauh ini menangani begitu banyak model bisnis mereka. </p><p class="uppercase my-6">Hepiska Franatagola</p></blockquote>
+<blockquote class=""><p
+class="">Menurutku <a class="border-b-2" href="https://www.sorabel.com" target="_blank">Sale Stock</a> dan Garindra berhasil menerapkan tim yang <em>lean</em> dan bisa bertahan sampai sejauh ini menangani begitu banyak model bisnis mereka. </p></blockquote>
 
 ## Tips Untuk Developer
 

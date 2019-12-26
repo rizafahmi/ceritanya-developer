@@ -22,7 +22,7 @@ Setelah lulus, [ Rony ](https://www.linkedin.com/in/ainur-rony-662a0b22/) memula
 
 [ Rony ](https://www.linkedin.com/in/ainur-rony-662a0b22/) punya keresahan terkait industri 4.0 dimana berbagai aspek menjadi serba otomatis. Indonesia yang memiliki angkatan kerja banyak harus mau berbenah dan meningkatkan kemampuan agar tidak tergilas oleh berbagai perangkat otomatis yang sebenarnya memudahkan kehidupan kita sehari-hari. Jika hal ini dibiarkan, maka angkatan kerja yang banyak tersebut hanya akan menjadi pengangguran.
 
-<blockquote class="pl-4 border-l-4 border-teal ml-6 my-6"><p class="text-xl">Pendidikan itu segalanya. Itu yang akan menyelamatkan kita kedepannya.</p><p class="uppercase my-6">Ainur Rony</p></blockquote>
+<blockquote class=""><p class="">Pendidikan itu segalanya. Itu yang akan menyelamatkan kita kedepannya.</p></blockquote>
 
 ## Tips Untuk Developer
 

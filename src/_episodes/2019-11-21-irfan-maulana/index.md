@@ -16,17 +16,19 @@ Irfan banyak bercerita pengalamannya dalam belajar koding dan pemrograman melalu
 > “Naifnya, saya sudah merasakan enaknya menjadi seorang Developer. Ada banyak hal, tidak cuma finansial. Saya jadi punya networking yang baik.”
 
 Hingga sekarang pun, Irfan masih terus belajar. Saat ini, Ia sedang mendalami React.
-Tips untuk Developer
+
+### Tips untuk Developer
+
 - Berani mengambil peluang yang ada
 - Banyak belajar dari banyak orang
 - Berteman dengan orang yang ahli di bidangnya
 - Mencari lingkungan yang mendukung untuk belajar
 - Selelah apapun, tetap semangat belajar untuk mengejar ketertinggalan
 - Punya alur belajar pemrograman yang sesuai dengan diri
-Link Penting
--          Swing
--          React
--          Unicorn Tokopedia terbesar ke-dua https://www.cnbcindonesia.com/tech/20191003061130-37-104026/ri-kini-punya-startup-unicorn-ke-5-namanya-ovo
--          Web Javascript
--          Jihad Dzikri dan Ivan Yu
+
+### Link Penting
+- [ Swing ](https://en.wikipedia.org/wiki/Swing_(Java))
+- [ React ](https://reactjs.org)
+- [ Jihad Dzikri ](https://twitter.com/Dewey92)
+- [ Evan You ](https://twitter.com/youyuxi)
 

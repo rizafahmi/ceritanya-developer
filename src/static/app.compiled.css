@@ -11418,6 +11418,55 @@ video {
           flex: 4;
 }
 
+.notes > p {
+  padding-bottom: 1rem;
+}
+
+.notes > p > a {
+  border-bottom-width: 2px;
+}
+
+.notes > h3 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.notes > h2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.notes > ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.notes > ul > li > a {
+  border-bottom-width: 2px;
+}
+
+.notes > ol {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+blockquote {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+blockquote > p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left-width: 4px;
+  border-color: #319795;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
