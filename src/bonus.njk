@@ -1,19 +1,17 @@
 ---
 layout: "layouts/base-2.njk"
-permalink: "season-1/index.html"
+permalink: "bonus/index.html"
 ---
 <div class="seasons p-6">
   <ul class="flex">
-    <li class="pr-6"><a class="" href="/">Season 2</a></li>
-    <li class="pr-6">
-      <a class="font-medium border-b border-gray-500 pb-6" href="#">Season 1</a>
-    </li>
-    <li><a href="/bonus" class="text-gray-500">Bonus</a></li>
+    <li class="pr-6"><a class="text-gray-500" href="/">Season 2</a></li>
+    <li class="pr-6"><a class="text-gray-500" href="/season-1">Season 1</a></li>
+    <li><a href="/bonus" class="font-medium border-b border-gray-500 pb-6">Bonus</a></li>
   </ul>
 </div>
 <div class="episode-list border-t">
 
-  {% for episode in collections.season1 | reverse %}
+  {% for episode in collections.bonus | reverse %}
     <div class="flex px-6 py-4 border-b">
       <div class="episode-icon self-center justify-center">
         <a href="#" onclick="javascript:play('{{ episode.data.audio }}', 'play-{{ loop.index0 }}');"><img class="play-image w-1/2" src="../static/images/play.png" id="play-{{ loop.index0 }}" /></a>
@@ -22,7 +20,7 @@ permalink: "season-1/index.html"
         <div class="metadata text-sm text-gray-400 py-2">
           {{ episode.data.date | htmlDateString }} &centerdot; {{ episode.data.duration }} Menit
         </div>
-        <a href="{{ episode.url }}">
+        <a href="#">
           <div class="title font-semibold uppercase text-md pb-4">
             {{ episode.data.title }}
           </div>
