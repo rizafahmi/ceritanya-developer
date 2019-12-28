@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.hard-shadow {
-  box-shadow: 0.6rem 0.6rem 0 #222;
+a {
+  @apply text-kodedark;
 }
 
 .producer > a:hover {
-  @apply border-b border-black;
+  @apply border-b border-kodedark;
 }
 
 .available > a {
-  @apply font-medium border-b border-black;
+  @apply font-medium border-b border-kodedark;
 }
 
 .episode-icon {
@@ -22,11 +22,17 @@
 }
 
 .notes > p {
-  @apply pb-4;
+  @apply pb-4 leading-relaxed;
 }
 
 .notes > p > a {
   @apply border-b-2;
+}
+
+h1,
+h2,
+h3 {
+  @apply text-kodedark;
 }
 
 .notes > h3 {
@@ -54,5 +60,9 @@ blockquote {
 }
 
 blockquote > p {
-  @apply px-4 border-l-4 border-teal-600 font-medium italic text-xl;
+  @apply px-4 border-l-4 border-blue-300 font-medium italic text-xl;
+}
+
+.download-link:hover {
+  @apply border-b border-kodeteal;
 }
