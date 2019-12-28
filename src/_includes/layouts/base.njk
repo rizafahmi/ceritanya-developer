@@ -9,7 +9,7 @@
 {{ css | safe }}
       </style>
     {% else %}
-      <link rel="stylesheet" href="/static/app.compiled.css">
+      <link defer rel="stylesheet" href="/static/app.compiled.css">
     {% endif %}
   </head>
   <body class="bg-blue-100">
@@ -74,5 +74,5 @@
       </div>
     </div>
   </body>
-  <script src="/static/app.bundled.js"></script>
+  <script async src="/static/app.bundled.js"></script>
 </html>
