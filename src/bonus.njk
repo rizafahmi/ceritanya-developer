@@ -4,8 +4,8 @@ permalink: "bonus/index.html"
 ---
 <div class="seasons p-6">
   <ul class="flex">
-    <li class="pr-6"><a class="text-gray-500" href="/">Season 2</a></li>
-    <li class="pr-6"><a class="text-gray-500" href="/season-1">Season 1</a></li>
+    <li class="pr-6"><a class="text-gray-600" href="/">Season 2</a></li>
+    <li class="pr-6"><a class="text-gray-600" href="/season-1">Season 1</a></li>
     <li><a href="/bonus" class="font-medium border-b border-gray-500 pb-6">Bonus</a></li>
   </ul>
 </div>
@@ -14,10 +14,10 @@ permalink: "bonus/index.html"
   {% for episode in collections.bonus | reverse %}
     <div class="flex px-6 py-4 border-b">
       <div class="episode-icon self-center justify-center">
-        <button href="#" onclick="javascript:play('{{ episode.data.audio }}', 'play-{{ loop.index0 }}');"><img class="play-image w-1/2" src="../static/images/play.png" id="play-{{ loop.index0 }}" /></button>
+        <button name="play button" href="#" onclick="javascript:play('{{ episode.data.audio }}', 'play-{{ loop.index0 }}');"><img alt="play-icon" class="play-image w-1/2" src="../static/images/play.png" id="play-{{ loop.index0 }}" /></button>
       </div>
       <div class="episode-info p-2">
-        <div class="metadata text-sm text-gray-400 py-2">
+        <div class="metadata text-sm text-gray-600 py-2">
           {{ episode.data.date | htmlDateString }} &centerdot; {{ episode.data.duration }} Menit
         </div>
         <a href="#">
