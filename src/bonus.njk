@@ -14,7 +14,7 @@ permalink: "bonus/index.html"
   {% for episode in collections.bonus | reverse %}
     <div class="flex px-6 py-4 border-b">
       <div class="episode-icon self-center justify-center">
-        <a href="#" onclick="javascript:play('{{ episode.data.audio }}', 'play-{{ loop.index0 }}');"><img class="play-image w-1/2" src="../static/images/play.png" id="play-{{ loop.index0 }}" /></a>
+        <button href="#" onclick="javascript:play('{{ episode.data.audio }}', 'play-{{ loop.index0 }}');"><img class="play-image w-1/2" src="../static/images/play.png" id="play-{{ loop.index0 }}" /></button>
       </div>
       <div class="episode-info p-2">
         <div class="metadata text-sm text-gray-400 py-2">
