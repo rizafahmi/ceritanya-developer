@@ -11702,6 +11702,11 @@ blockquote > p {
   font-size: 1.25rem;
 }
 
+.download-link:hover {
+  border-bottom-width: 1px;
+  border-color: #1DD8DF;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

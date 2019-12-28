@@ -62,3 +62,7 @@ blockquote {
 blockquote > p {
   @apply px-4 border-l-4 border-blue-300 font-medium italic text-xl;
 }
+
+.download-link:hover {
+  @apply border-b border-kodeteal;
+}
