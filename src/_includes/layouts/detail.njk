@@ -50,13 +50,13 @@
           <span class="font-medium">Rp. 50.000,-</span>
         </div>
         <p class="mb-4">Nama teman-teman akan disebutkan di episode podcast berikutnya. Dukungan bisa melalui Go-Pay, Ovo atau Transfer.</p>
-        <a class="mb-6 p-4 bg-kodedark text-blue-300 rounded text-sm font-medium text-center" href="https://karyakarsa.com/checkout/207" target="_blank" ref="noopener">Dukung via Karyakarsa</a>
+        <a class="mb-6 p-4 bg-kodedark text-kodeblue rounded text-sm font-medium text-center" href="https://karyakarsa.com/checkout/207" target="_blank" ref="noopener">Dukung via Karyakarsa</a>
         <div class="flex justify-between my-2 donation-header">
           <span class="donasi font-medium">Terimakasih</span>
           <span class="font-medium">Rp. 10.000,-</span>
         </div>
         <p class="mb-4">Terima kasih atas dukungannya! Setiap dukungan sangatlah berarti. Dukungan bisa melalui Go-Pay, Ovo atau Transfer.</p>
-        <a class="p-4 bg-kodedark text-blue-300 rounded text-sm font-medium text-center" href="https://karyakarsa.com/checkout/206" target="_blank" ref="noopener">Dukung via Karyakarsa</a>
+        <a class="p-4 bg-kodedark text-kodeblue rounded text-sm font-medium text-center" href="https://karyakarsa.com/checkout/206" target="_blank" ref="noopener">Dukung via Karyakarsa</a>
       </div>
       </sidebar>
       <div class="w-2/3 font-sans">
@@ -72,12 +72,14 @@
         <!-- WHITE BOX -->
         <div class="episodes-box my-6 bg-white rounded shadow-xl">
           <div class="notes p-12">
-            <h2 class="font-semibold text-2xl pb-4">{{ title }}</h2>
+            <h2 class="text-2xl pb-4">{{ title }}</h2>
             <div class="player flex rounded my-6 shadow-md" style="background-color: #262E36;">
               <div class="w-1/4 self-center">
                 <img id="player-play-image" class="ml-4 w-1/2" onclick="javascript:play('{{ audio }}');" class="play-image " src="../../static/images/play-cyan.png" />
               </div>
-              <div id="siri-container" class="w-3/4 overflow-hidden mr-1"></div>
+              <div id="siri-container" class="w-3/4 overflow-hidden mr-1">
+                <a class="text-kodeblue font-medium" href="#">Download</a>
+              </div>
             </div>
             {{ content | safe }}
           </div>
@@ -94,10 +96,17 @@
       width: 460,
       height: 100,
       autostart: false,
-      color: "#1DD8DF"
+      color: "#1DD8DF",
+      autostart: true
     });
 
+    window.setTimeout(function() {
+      siriWave.stop()
+    }, 500);
+
     let audio = new Audio();
+    audio.src = "{{ audio }}";
+    audio.load();
     function play(audio_url) {
       const img = document.querySelector("#player-play-image");
       if (audio && audio.src === audio_url) {
