@@ -1,7 +1,9 @@
 const htmlmin = require('html-minifier');
 const { DateTime } = require('luxon');
+const pluginPWA = require('eleventy-plugin-pwa');
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(pluginPWA);
   // Folders to copy to build dir (See. 1.1)
   eleventyConfig.addPassthroughCopy('src/static');
 

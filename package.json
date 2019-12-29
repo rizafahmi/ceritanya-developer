@@ -23,5 +23,8 @@
     "tailwindcss": "^1.1.3",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "eleventy-plugin-pwa": "1.0.8"
   }
 }

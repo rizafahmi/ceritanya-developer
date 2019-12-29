@@ -32,6 +32,17 @@ layout: layouts/base.njk
   {% endfor %}
 
 </div>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }).catch(function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  }
+</script>
 <script async>
   let audio = new Audio();
   function play(audio_url, id) {
