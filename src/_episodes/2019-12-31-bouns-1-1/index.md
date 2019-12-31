@@ -8,5 +8,3 @@ excerpt: "Berikut adalah beberapa lead komunitas developer menjawab tantangan se
 audio: https://d3ctxlq1ktw2nl.cloudfront.net/staging/2019-12-30/41306503-44100-2-85a990bf419ec0ba088639e849eb1008.m4a
 tags: ["bonus"]
 ---
-
-Empty

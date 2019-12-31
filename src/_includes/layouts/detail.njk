@@ -85,7 +85,11 @@
                 </div>
               </div>
             </div>
-            {{ content | safe }}
+            {% if content.length > 50 %}
+              {{ content | safe }}
+            {% else %}
+              {{ excerpt | safe }}
+            {% endif %}
           </div>
         </div>
         <!-- WHITE BOX -->

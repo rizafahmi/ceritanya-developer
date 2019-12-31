@@ -20,7 +20,7 @@ permalink: "bonus/index.html"
         <div class="metadata text-sm text-gray-600 py-2">
           {{ episode.data.date | htmlDateString }} &centerdot; {{ episode.data.duration }} Menit
         </div>
-        <a href="#">
+        <a href="{{ episode.url }}">
           <div class="title font-semibold uppercase text-md pb-4">
             {{ episode.data.title }}
           </div>
