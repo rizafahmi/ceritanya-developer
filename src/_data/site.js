@@ -17,7 +17,7 @@ module.exports = {
   meta_data: {
     theme_color: '#E7FFFA', // used in Chrome, Firefox OS and Opera
     twitter: '@rizafahmi22',
-    default_social_image: '/static/images/logo.png'
+    default_social_image: '/static/images/logo-2020.png'
   },
   ENV: process.env.ELEVENTY_ENV,
   version: pkgJSON.version
