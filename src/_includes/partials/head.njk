@@ -11,7 +11,7 @@
   Short description of the document (limit to 150 characters)
   This content *may* be used as a part of search engine results. 
 -->
-<meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
 
 <!-- Control the behavior of search engine crawling and indexing -->
 <meta name="robots" content="index,follow"><!-- All Search Engines -->
